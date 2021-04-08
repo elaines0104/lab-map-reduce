@@ -1,0 +1,5 @@
+$ export GOROOT=/research/sesa/451/go essa configuração eu já tenho
+$ export PATH=$PATH:$GOROOT/bin essa configuração eu já tenho
+$ export GOPATH=$HOME/Downloads/TCC/lab-map-reduce
+$ cd "$GOPATH/src/main"
+$ go run wc.go master sequential pg-*.txt
