@@ -7,7 +7,7 @@ import (
 
 // What follows are RPC types and methods.
 // Field names must start with capital letters, otherwise RPC will break.
-
+//a questão é outra na verdade se os nomes não começarem com letra maiuscula a struct se torna privada
 // DoTaskArgs holds the arguments that are passed to a worker when a job is
 // scheduled on it.
 type DoTaskArgs struct {
